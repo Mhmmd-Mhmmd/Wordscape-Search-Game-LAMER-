@@ -1,6 +1,6 @@
 from nltk.corpus import words
 
-with open('search game lamer.txt', 'r') as f_in:
+with open('input.txt', 'r') as f_in:
     table = []
     for line in f_in:
         table.append(line.strip().split(' '))
